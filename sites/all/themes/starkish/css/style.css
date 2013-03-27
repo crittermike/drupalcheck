@@ -1,0 +1,214 @@
+/**************************
+ *        GLOBALS         *
+ **************************/
+body {
+  font: 18px/1.231 "Lato",sans-serif;
+  color: rgb(52, 73, 94);
+  line-height: 1.4;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color: #c0392b;
+}
+a:hover {
+  color: rgb(52, 73, 94);
+}
+
+/**************************
+ *         HEADER         *
+ **************************/
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.header h1 {
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 100px;
+  margin-bottom: 0;
+}
+.header h2 {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding-top: 5px;
+  color: #aaa;
+}
+
+
+/**************************
+ *       NAVIGATION       *
+ **************************/
+
+
+/**************************
+ *         CONTENT        *
+ **************************/
+h1.page-title {
+  display: none;
+}
+
+input.form-text,
+textarea {
+  width: 97%;
+  border: 2px solid rgb(220, 228, 236);
+  color: rgb(52, 73, 94);
+  font-family: "Lato",sans-serif;
+  font-size: 14px;
+  padding: 8px 0px 9px 10px;
+  text-indent: 1px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+textarea {
+  height: 75px;
+}
+
+label {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+input.form-submit {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  background: #c0392b;
+  cursor: pointer;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.pane-title, .form-required, .grippie { display: none; }
+
+.includes {
+  margin: 30px 0;
+}
+.includes .feature {
+  width: 160px;
+  float: left;
+  background-color: rgb(236, 240, 245);
+  border-radius: 6px 6px 6px 6px;
+  padding: 2px 14px 14px;
+  position: relative;
+  text-align: center;
+  margin-left: 15px;
+  height: 225px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.includes .feature:first-child {
+  margin-left: 0;
+}
+blockquote {
+  background-color: rgb(52, 73, 94);
+  line-height: 18px;
+  padding: 12px;
+  border-radius: 6px 6px 6px 6px;
+  clear: both;
+  color: white;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+cite {
+  display: block; 
+  float: right;
+  margin-top: 10px;
+}
+
+img.profile {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 150px;
+}
+.bio p {
+  width: 95%;
+}
+
+p.recommendation {
+  clear: both;
+  padding: 15px;
+  border-left: 5px solid rgb(52, 73, 94);
+  background: #f5f5f5;
+}
+.recommendations p {
+  margin: 0;
+}
+.recommendations cite {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+#webform-client-form-1 {
+  background: #f5f5f5;
+  padding: 1px 15px;
+  border-radius: 6px;
+}
+
+.intro {
+  padding-top: 10px;
+}
+
+.page-node-done .links {
+  display: none;
+}
+
+.webform-confirmation {
+  text-align: center;
+}
+
+.quotes {
+  padding: 30px 0;
+}
+
+
+
+/**************************
+ *         FOOTER         *
+ **************************/
+
+
+@media only screen and (max-width : 760px) {
+  .includes .feature,
+  .panel-2col-bricks .panel-col-last,
+  .panel-2col-bricks .panel-col-first {
+    float: none;
+    width: 100%;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .includes .feature {
+    height: auto;
+  }
+  .header h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .panel-2col-bricks .panel-col-last .inside {
+    margin: 0;
+  }
+
+}
