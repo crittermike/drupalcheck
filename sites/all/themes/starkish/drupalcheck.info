@@ -1,8 +1,7 @@
-name = Starkish
+name = Drupal Check
 description = The Drupal 7 starter theme for people who hate starter themes.
 screenshot = images/screenshot.png
 core = "7.x"
-project = "starkish"
 engine = phptemplate
 
 regions[page_top] = Page top
